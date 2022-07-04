@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center">Trybe Wallet</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">Décimo oitavo projeto realizado na <strong>Trybe</strong> onde foi necessário demonstrar os conhecimentos adquiridos com Redux aplicados a React. Como trabalho extra, foi realizada toda a estilização e recursividade da aplicação com Tailwind e Framer Motion.!</p>
 
-## Available Scripts
+<h3 align="center">https://brunocabralsilva.github.io/guia-das-matilhas/</h3>
 
-In the project directory, you can run:
+![Tela Inicial da Aplicação](src/images/login.jpg)
 
-### `npm start`
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2> Índice</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Mapeamento do Site](#mapeamento)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Desenvolvedores e demais contribuidores](#pessoas-envolvidas)
+* [Conclusão](#conclusão)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 id="descrição-do-projeto">Descrição do Projeto</h2>
 
-### `npm run build`
+<p>Neste projeto foi possível desenvolver uma carteira de controle de gastos com conversor de moedas, onde ao utilizar essa aplicação um usuário poderá ser capaz de:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Adicionar, remover e editar um gasto (estando este último ainda em desenvolvimento);
+*Visualizar uma tabelas com seus gastos;
+*Visualizar o total de gastos convertidos para uma moeda de escolha;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Neste projeto, a trybe foi capaz de verificar a capacidade de:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Criar um store Redux em aplicações React;
+*Criar reducers no Redux em aplicações React;
+*Criar actions no Redux em aplicações React;
+*Criar dispatchers no Redux em aplicações React;
+*Conectar Redux aos componentes React;
+*Criar actions assíncronas na sua aplicação React que faz uso de Redux.
 
-### `npm run eject`
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h2 id="mapeamento">Mapeamento do site </h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<ol>
+<li><h4>Login</h4></li> 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>Página inicial do site. O botão de "Login" só é habilitado se um e-mail válido for digitado, bem como uma senha de seis dígitos. Ao clicar em "Adicionar despesa" é realizada uma pesquisa na API "https://economia.awesomeapi.com.br/json/all", que retorna o câmbio atual das moedas utilizadas para a aplicação. Desta forma, ao exibir a conversão, o valor disponibilizado será do câmbio no momento exato do click em que for cadastrada a despesa.</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p> </p>
 
-## Learn More
+<li><h4>Wallet</h4></li> 
+<p>Ao realizar o Login, o usuário é direcionado para a página denominada "carteira", onde ele pode cadastrar e excluir despesas. A página se divide em três blocos principais:</p>
+<ul>
+<li><strong>Cabeçalho<strong>: É possível visualizar em tela o e-mail cadastrado outrora pelo usuário ao realizar o login, além do valor total das despesas cadastradas e da moeda de conversão, que é o Real do Brasil(R$); </li>
+<li><strong>Cadastro de Despesas<strong>: Quadro lateral onde é possível cadastrar a despesa ao informar o valor da despesa, uma descrição sobre ela, a moeda a ser convertida para Real(R$), a forma de pagamento e em qual categoria a mesma se encaixa;</li>
+<li><strong>Tabela de Despesas<strong>:Nesta área principal é possível visualizar as despesas com todas as informações cadastradas espalhadas nas colunas que trazem informações dedescrição,
+tag (categoria), método de pagamento, valor, moeda, câmbio utilizado, valor convertido e moeda de conversão. Além disso, para cada despesa cadastrada, existem botões de excluir e editar, para que as despesas sejam excluídas ou editadas, conforme o nome dos botões.</li>
+<ul>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2 id="tecnologias-utilizadas">Tecnologias utilizadas</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* `HTML5`
+* `CSS3`
+* `Javascript (ECMAScript 2018)`
+* `React`
+* `React Router Dom`
+* `Framer Motion`
+* `TailWind`
 
-### Code Splitting
+<h2 id="pessoas-envolvidas">Desenvolvedores e demais contribuidores</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* <strong>Bruno Gabryell Cabral da Silva</strong> - Desenvolvedor Web;
 
-### Analyzing the Bundle Size
+<h2 id="conclusão">Conclusão</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Programar é um eterno aprendizado. Quanto mais se pratica, mais se melhora. Praticar conceitos de programação com coisas que se é apaixonado apimenta ainda mais a relação! Muitos aprendizados novos são adicionados a cada dia, fazendo com que este projeto já tenha valido a pena antes mesmo de ser concluído!</p>
