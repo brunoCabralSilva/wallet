@@ -13,7 +13,7 @@ function App() {
       <AnimateSharedLayout>
       <AnimatePresence>
         <Switch location={location} key={location.key}>
-        <Route exact path="/trybe-wallet" component={ Login } />
+        <Route exact path="/trybe-18-wallet" component={ Login } />
         <Route path="/carteira" component={ Wallet } />
       </Switch>
       </AnimatePresence>
