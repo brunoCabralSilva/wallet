@@ -45,7 +45,6 @@ Neste projeto, a trybe foi capaz de verificar a capacidade de:
 
 <p>Página inicial do site. O botão de "Login" só é habilitado se um e-mail válido for digitado, bem como uma senha de seis dígitos. Ao clicar em "Adicionar despesa" é realizada uma pesquisa na API "https://economia.awesomeapi.com.br/json/all", que retorna o câmbio atual das moedas utilizadas para a aplicação. Desta forma, ao exibir a conversão, o valor disponibilizado será do câmbio no momento exato do click em que for cadastrada a despesa.</p>
 
-<p> </p>
 
 <li><h4>Wallet</h4></li> 
 <p>Ao realizar o Login, o usuário é direcionado para a página denominada "carteira", onde ele pode cadastrar e excluir despesas. A página se divide em três blocos principais:</p>
