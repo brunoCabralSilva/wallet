@@ -2,7 +2,7 @@
 
 <p align="center">Décimo oitavo projeto realizado na <strong>Trybe</strong> onde foi necessário demonstrar os conhecimentos adquiridos com Redux aplicados a React. Como trabalho extra, foi realizada toda a estilização e recursividade da aplicação com Tailwind e Framer Motion.!</p>
 
-<h3 align="center">https://brunocabralsilva.github.io/guia-das-matilhas/</h3>
+<h3 align="center">https://brunoCabralSilva.github.io/trybe-18-wallet/</h3>
 
 ![Tela Inicial da Aplicação](src/images/login.jpg)
 
