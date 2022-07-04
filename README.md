@@ -53,7 +53,7 @@ Neste projeto, a trybe foi capaz de verificar a capacidade de:
 <li><strong>Cadastro de Despesas<strong>: Quadro lateral onde é possível cadastrar a despesa ao informar o valor da despesa, uma descrição sobre ela, a moeda a ser convertida para Real(R$), a forma de pagamento e em qual categoria a mesma se encaixa;</li>
 <li><strong>Tabela de Despesas<strong>:Nesta área principal é possível visualizar as despesas com todas as informações cadastradas espalhadas nas colunas que trazem informações dedescrição,
 tag (categoria), método de pagamento, valor, moeda, câmbio utilizado, valor convertido e moeda de conversão. Além disso, para cada despesa cadastrada, existem botões de excluir e editar, para que as despesas sejam excluídas ou editadas, conforme o nome dos botões.</li>
-<ul>
+</ul>
 
 <h2 id="tecnologias-utilizadas">Tecnologias utilizadas</h2>
 
