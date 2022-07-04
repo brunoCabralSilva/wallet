@@ -23,18 +23,22 @@
 
 <p>Neste projeto foi possível desenvolver uma carteira de controle de gastos com conversor de moedas, onde ao utilizar essa aplicação um usuário poderá ser capaz de:
 
-*Adicionar, remover e editar um gasto (estando este último ainda em desenvolvimento);
-*Visualizar uma tabelas com seus gastos;
-*Visualizar o total de gastos convertidos para uma moeda de escolha;
+<ul>
+<li>Adicionar, remover e editar um gasto (estando este último ainda em desenvolvimento);</li>
+<li>Visualizar uma tabela com seus gastos;</li>
+<li>Visualizar o total de gastos convertidos para uma moeda de escolha;</li>
+</ul>
 
 Neste projeto, a trybe foi capaz de verificar a capacidade de:
 
-*Criar um store Redux em aplicações React;
-*Criar reducers no Redux em aplicações React;
-*Criar actions no Redux em aplicações React;
-*Criar dispatchers no Redux em aplicações React;
-*Conectar Redux aos componentes React;
-*Criar actions assíncronas na sua aplicação React que faz uso de Redux.
+<ul>
+<li>Criar um store Redux em aplicações React;</li>
+<li>Criar reducers no Redux em aplicações React;</li>
+<li>Criar actions no Redux em aplicações React;</li>
+<li>Criar dispatchers no Redux em aplicações React;</li>
+<li>Conectar Redux aos componentes React;</li>
+<li>Criar actions assíncronas na sua aplicação React que faz uso de Redux.</li>
+<ul>
 
 </p>
 
