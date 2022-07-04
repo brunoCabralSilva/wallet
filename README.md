@@ -38,7 +38,7 @@ Neste projeto, a trybe foi capaz de verificar a capacidade de:
 <li>Criar dispatchers no Redux em aplicações React;</li>
 <li>Conectar Redux aos componentes React;</li>
 <li>Criar actions assíncronas na sua aplicação React que faz uso de Redux.</li>
-<ul>
+</ul>
 
 </p>
 
