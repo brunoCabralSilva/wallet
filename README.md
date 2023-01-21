@@ -1,4 +1,4 @@
-<h1 align="center">Trybe Wallet</h1>
+<h1 align="center">Wallet</h1>
 
 <p align="center">Décimo oitavo projeto realizado na <strong>Trybe</strong> onde foi necessário demonstrar os conhecimentos adquiridos com Redux aplicados a React. Como trabalho extra, foi realizada toda a estilização e recursividade da aplicação com Tailwind e Framer Motion.!</p>
 
