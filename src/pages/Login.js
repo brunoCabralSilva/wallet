@@ -41,7 +41,7 @@ class Login extends React.Component {
   }
 
   render() {
-    const { email, senha, desabilitar } = this.state;
+    const { email, senha } = this.state;
     return (
         <div className="flex flex-row justify-center w-full h-screen items-center bg-stone-400">
           <img
