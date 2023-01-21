@@ -16,7 +16,7 @@
     "redux-devtools-extension": "^2.13.9",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://brunoCabralSilva.github.io/trybe-18-wallet",
+  "homepage": "https://brunoCabralSilva.github.io/wallet",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
